@@ -6,11 +6,11 @@ pipeline {
     }
     environment {
         APP_NAME = "LearningSession"
-        BETA_PORT = 8081
-        GAMMA_PORT = 8082
+        BETA_PORT = 8086
+        GAMMA_PORT = 8087
         SERVER_IP = "localhost"
         LOG_DIR = "${WORKSPACE}/logs"
-        DOCKER_IMAGE = "poorna_learning_session"
+        DOCKER_IMAGE = "Anil_Zeero"
         DOCKER_TAG = "${env.BUILD_NUMBER}"
     }
     stages {
